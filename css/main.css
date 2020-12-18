@@ -1,0 +1,506 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  background-color: white !important;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+  body img {
+    width: 100%; }
+  body .nav-section {
+    margin: 0;
+    width: 100%;
+    position: relative; }
+    body .nav-section .section-sloy {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0; }
+      body .nav-section .section-sloy nav {
+        flex-flow: column; }
+        body .nav-section .section-sloy nav #logo-1 {
+          display: none; }
+        body .nav-section .section-sloy nav ul li {
+          margin-right: 25px; }
+          body .nav-section .section-sloy nav ul li a {
+            font-family: "Times New Roman", Times, serif;
+            color: #8C8F91 !important;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 10px;
+            transition-duration: .2s;
+            letter-spacing: 2px; }
+            body .nav-section .section-sloy nav ul li a:hover {
+              color: #64C29E !important; }
+        body .nav-section .section-sloy nav ul #logo-2 {
+          margin-top: -20px !important;
+          width: 80px !important;
+          margin-right: 25px !important; }
+  body aside .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #DED8E0;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px; }
+    body aside .sidenav a {
+      padding: 15px;
+      margin-left: 5px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #353738 !important;
+      display: block;
+      transition: 0.3s; }
+      body aside .sidenav a:hover {
+        color: #64C29E !important; }
+    body aside .sidenav .closebtn {
+      position: absolute;
+      top: -18px;
+      right: 15px;
+      font-size: 40px !important;
+      margin-left: 30px;
+      color: #64C29E !important; }
+  body main .generation-section .container-fluid .row .col-md-12 {
+    text-align: center;
+    margin-top: 100px; }
+    body main .generation-section .container-fluid .row .col-md-12 i {
+      font-size: 40px;
+      margin-bottom: 25px;
+      color: #64C29E !important; }
+    body main .generation-section .container-fluid .row .col-md-12 h1 {
+      letter-spacing: 2px;
+      margin-bottom: 35px;
+      font-size: 23px;
+      color: #353738 !important;
+      text-transform: uppercase;
+      padding-right: 75px;
+      padding-left: 75px; }
+    body main .generation-section .container-fluid .row .col-md-12 p {
+      margin-bottom: 135px;
+      color: #8C8F91 !important;
+      letter-spacing: 1px;
+      padding-right: 100px;
+      padding-left: 100px; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .bike1 {
+    width: 65%; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .bike-logo {
+    position: absolute;
+    width: 6%;
+    top: 42%;
+    left: 29%; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .bike3 {
+    width: 65%; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .vintage-logo {
+    position: absolute;
+    width: 10%;
+    top: 38%;
+    right: 28%; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .words .vintage {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 37px;
+    padding-top: 45px; }
+    body main .grid-section1 .container-fluid .row .col-md-12 .words .vintage i {
+      font-size: 30px;
+      color: #64C29E !important;
+      margin-bottom: 20px; }
+    body main .grid-section1 .container-fluid .row .col-md-12 .words .vintage h1 {
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+      font-size: 23px;
+      color: #353738 !important;
+      text-transform: uppercase; }
+    body main .grid-section1 .container-fluid .row .col-md-12 .words .vintage p {
+      color: #8C8F91 !important;
+      letter-spacing: 1px;
+      font-size: 14px;
+      text-align: left !important; }
+  body main .grid-section1 .container-fluid .row .col-md-12 .words img {
+    width: 100%; }
+  body main .grid-section1 .container-fluid .row .gridrow-3 img {
+    width: 34%; }
+  body main .grid-section1 .container-fluid .row .gridrow-3 .bicyc-logo {
+    position: absolute;
+    width: 10%;
+    top: 45%;
+    left: 12%; }
+  body main .grid-section1 .container-fluid .row .gridrow-3 .words .vintage {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 37px;
+    padding-top: 45px; }
+    body main .grid-section1 .container-fluid .row .gridrow-3 .words .vintage i {
+      font-size: 30px;
+      color: #64C29E !important;
+      margin-bottom: 20px; }
+    body main .grid-section1 .container-fluid .row .gridrow-3 .words .vintage h1 {
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+      font-size: 23px;
+      color: #353738 !important;
+      text-transform: uppercase; }
+    body main .grid-section1 .container-fluid .row .gridrow-3 .words .vintage p {
+      color: #8C8F91 !important;
+      letter-spacing: 1px;
+      font-size: 14px;
+      text-align: left !important; }
+  body main .grid-section1 .container-fluid .row .gridrow-3 .words img {
+    width: 100%; }
+  body main .slick-section .container-fluid .my-slider .arrow {
+    position: absolute;
+    top: 90%;
+    border: none;
+    background-color: inherit;
+    color: #64C29E;
+    outline: none;
+    z-index: 1; }
+    body main .slick-section .container-fluid .my-slider .arrow i {
+      height: auto;
+      font-size: 25px; }
+  body main .slick-section .container-fluid .my-slider .prev {
+    left: 25%; }
+  body main .slick-section .container-fluid .my-slider .next {
+    right: 25%; }
+  body main .slick-section .container-fluid .my-slider .col-md-12 {
+    text-align: center;
+    margin-top: 100px; }
+    body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar {
+      text-align: center; }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar i {
+        font-size: 30px;
+        margin-bottom: 25px;
+        transition-duration: .3s; }
+        body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar i:hover {
+          transform: translateY(-20%); }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar .fa-twitter {
+        color: #78CDF0; }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar .fa-facebook {
+        color: #537BBD; }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar .fa-pinterest {
+        color: #EB5755; }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar h6 {
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+        font-size: 19px;
+        color: #353738 !important;
+        padding-right: 75px;
+        padding-left: 75px; }
+        body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar h6 em {
+          color: #8C8F91 !important;
+          font-size: 18px;
+          font-weight: 300; }
+      body main .slick-section .container-fluid .my-slider .col-md-12 .slide-bar p {
+        margin-bottom: 135px;
+        color: #8C8F91 !important;
+        letter-spacing: 1px;
+        font-size: 20px;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; }
+  body main .grid-section2 .container-fluid {
+    background-color: #282F35; }
+    body main .grid-section2 .container-fluid .grid-row {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      margin-top: 100px; }
+      body main .grid-section2 .container-fluid .grid-row .col {
+        padding-right: 0 !important;
+        padding-left: 0 !important; }
+      body main .grid-section2 .container-fluid .grid-row .image5 {
+        height: 100%; }
+      body main .grid-section2 .container-fluid .grid-row .col-md-6 .btn {
+        margin: 100px 0 100px 40px;
+        text-transform: uppercase;
+        color: white;
+        border-color: white;
+        border-radius: 0;
+        font-size: 14px;
+        padding: 10px 55px 10px 55px;
+        letter-spacing: 2px; }
+        body main .grid-section2 .container-fluid .grid-row .col-md-6 .btn:hover {
+          background-color: #64C29E !important;
+          color: white;
+          transition: all 0.3s ease-in;
+          box-shadow: 1px 1px 10px 2px #b8b9b9;
+          border-color: #64C29E !important; }
+  body main .input-section .container-fluid .row {
+    margin-bottom: 50px; }
+    body main .input-section .container-fluid .row .col-md-12 .row .img-logo {
+      margin-top: 100px;
+      text-align: center; }
+      body main .input-section .container-fluid .row .col-md-12 .row .img-logo img {
+        width: 10%; }
+    body main .input-section .container-fluid .row .col-md-12 .row .word-part {
+      margin-top: 40px;
+      color: #8C8F91 !important;
+      text-align: center; }
+    body main .input-section .container-fluid .row .col-md-12 .row .col-md-6 {
+      margin-top: 30px; }
+      body main .input-section .container-fluid .row .col-md-12 .row .col-md-6 input {
+        padding: 25px;
+        border-radius: 0; }
+        body main .input-section .container-fluid .row .col-md-12 .row .col-md-6 input:hover {
+          box-shadow: 1px 1px 10px 2px #b8b9b9; }
+    body main .input-section .container-fluid .row .col-md-12 .row .col-md-3 {
+      margin-top: 30px; }
+      body main .input-section .container-fluid .row .col-md-12 .row .col-md-3 .btn {
+        border: none;
+        border-radius: 0;
+        padding: 14px 30px 14px 30px;
+        background-color: #64C29E !important;
+        margin-left: -20px;
+        color: white;
+        text-transform: uppercase; }
+        body main .input-section .container-fluid .row .col-md-12 .row .col-md-3 .btn:hover {
+          box-shadow: 1px 1px 10px 2px #b8b9b9; }
+  body main .footer .container-fluid {
+    background-color: #F7F7F7; }
+    body main .footer .container-fluid .row .word {
+      color: #8C8F91 !important; }
+    body main .footer .container-fluid .row .col-md-4 {
+      float: left;
+      margin-top: 70px;
+      margin-bottom: 70px; }
+      body main .footer .container-fluid .row .col-md-4 p {
+        margin-bottom: 0 !important;
+        font-size: 14px; }
+      body main .footer .container-fluid .row .col-md-4 i {
+        font-size: 20px;
+        border-radius: 50%;
+        color: white;
+        padding: 8px;
+        margin-left: 4px;
+        transition-duration: .3s; }
+        body main .footer .container-fluid .row .col-md-4 i:hover {
+          transform: translateY(-20%); }
+      body main .footer .container-fluid .row .col-md-4 .fa-twitter {
+        background-color: #78CDF0; }
+        body main .footer .container-fluid .row .col-md-4 .fa-twitter:hover {
+          box-shadow: 1px 1px 10px 2px #7ae0f1; }
+      body main .footer .container-fluid .row .col-md-4 .fa-facebook {
+        background-color: #537BBD; }
+        body main .footer .container-fluid .row .col-md-4 .fa-facebook:hover {
+          box-shadow: 1px 1px 10px 2px #6991d1; }
+      body main .footer .container-fluid .row .col-md-4 .fa-pinterest {
+        background-color: #EB5755; }
+        body main .footer .container-fluid .row .col-md-4 .fa-pinterest:hover {
+          box-shadow: 1px 1px 10px 2px #eb7371; }
+
+@media screen and (max-width: 992px) {
+  .grid-section2 .container-fluid .grid-row .col-md-6 .btn {
+    margin: 100px 0 100px -5px !important;
+    padding: 10px 35px 10px 35px !important; }
+
+  .input-section .container-fluid .row .col-md-12 .row .col-md-12 img {
+    width: 12% !important; } }
+@media screen and (max-width: 767px) {
+  .nav-section .section-sloy .navbar .navbar-toggler {
+    position: absolute;
+    top: 15px;
+    right: 20px; }
+    .nav-section .section-sloy .navbar .navbar-toggler i {
+      font-size: 25px;
+      color: #64C29E !important; }
+  .nav-section .section-sloy .navbar .navbar-collapse {
+    display: none !important; }
+  .nav-section .section-sloy .navbar #logo-1 {
+    display: inline;
+    position: absolute;
+    left: 20px; }
+    .nav-section .section-sloy .navbar #logo-1 img {
+      width: 70%; }
+  .nav-section .section-sloy .navbar #logo-2 {
+    display: none; }
+
+  .grid-section1 .container-fluid .row .col-md-12 {
+    display: inline !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bike1 {
+      width: 100% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bike-logo {
+      width: 8% !important;
+      top: 17% !important;
+      left: 43% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bike3 {
+      width: 100% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .vintage-logo {
+      width: 14% !important;
+      top: 75% !important;
+      right: 43% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bike5 {
+      width: 100% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bicyc-logo {
+      width: 16% !important;
+      top: 16% !important;
+      left: 40% !important; }
+    .grid-section1 .container-fluid .row .col-md-12 .bike7 {
+      width: 100% !important; }
+
+  .grid-section2 .container-fluid .grid-row .col-md-6 .btn {
+    margin: 100px 0 100px -15px !important;
+    padding: 10px 25px 10px 25px !important; }
+
+  .input-section .container-fluid .row .col-md-12 .row .btn {
+    padding: 14px 25px 14px 25px !important; } }
+@media screen and (max-width: 576px) {
+  .nav-section #logo-1 img {
+    width: 60% !important; }
+  .nav-section .navbar-toggler {
+    top: 12px !important;
+    right: 15px !important; }
+    .nav-section .navbar-toggler i {
+      font-size: 20px !important; }
+
+  aside .sidenav a {
+    font-size: 18px !important; }
+
+  .generation-section .container-fluid .row .col-md-12 {
+    margin-top: 80px !important; }
+    .generation-section .container-fluid .row .col-md-12 i {
+      font-size: 35px !important; }
+    .generation-section .container-fluid .row .col-md-12 h1 {
+      font-size: 19px !important; }
+    .generation-section .container-fluid .row .col-md-12 p {
+      font-size: 14px;
+      margin-bottom: 95px !important;
+      padding-right: 55px !important;
+      padding-left: 55px !important; }
+
+  .grid-section1 .container-fluid .row .col-md-12 .vintage-logo {
+    top: 78% !important; }
+  .grid-section1 .container-fluid .row .words .vintage i {
+    font-size: 25px !important; }
+  .grid-section1 .container-fluid .row .words .vintage h1 {
+    font-size: 19px !important; }
+
+  .slick-section .container-fluid .row .arrow {
+    top: 85% !important; }
+  .slick-section .container-fluid .row .col-md-12 .slide-bar h6 {
+    font-size: 16px !important;
+    padding-right: 70px !important;
+    padding-left: 70px !important; }
+    .slick-section .container-fluid .row .col-md-12 .slide-bar h6 em {
+      font-size: 15px !important; }
+  .slick-section .container-fluid .row .col-md-12 .slide-bar p {
+    font-size: 17px !important;
+    margin-bottom: 115px !important;
+    padding-right: 50px !important;
+    padding-left: 50px !important; }
+
+  .grid-section2 .container-fluid .grid-row {
+    margin-top: 50px !important; }
+    .grid-section2 .container-fluid .grid-row .col-md-6 .btn {
+      margin: 75px 0 75px -30px !important;
+      font-size: 10px !important; }
+
+  .input-section .container-fluid .row .col-md-12 .row .col-md-12 img {
+    width: 14% !important; }
+  .input-section .container-fluid .row .col-md-12 .row .btn {
+    padding: 14px 18px 14px 18px !important; }
+
+  .footer .container-fluid .row .col-md-4 {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important; } }
+@media screen and (max-width: 414px) {
+  .nav-section #logo-1 img {
+    width: 50% !important; }
+  .nav-section .navbar-toggler {
+    top: 10px !important;
+    right: 10px !important; }
+    .nav-section .navbar-toggler i {
+      font-size: 18px !important; }
+
+  .generation-section .container-fluid .row .col-md-12 {
+    margin-top: 50px !important; }
+    .generation-section .container-fluid .row .col-md-12 i {
+      font-size: 30px !important; }
+    .generation-section .container-fluid .row .col-md-12 h1 {
+      font-size: 15px !important;
+      padding-right: 50px !important;
+      padding-left: 50px !important; }
+    .generation-section .container-fluid .row .col-md-12 p {
+      font-size: 14px;
+      margin-bottom: 55px !important;
+      padding-right: 40px !important;
+      padding-left: 40px !important; }
+
+  .grid-section1 .container-fluid .row .col-md-12 .words .vintage h1 {
+    font-size: 15px !important; }
+  .grid-section1 .container-fluid .row .col-md-12 .bike-logo {
+    top: 15% !important; }
+
+  .slick-section .container-fluid .row .arrow i {
+    font-size: 23px !important; }
+  .slick-section .container-fluid .row .col-md-12 {
+    margin-top: 50px !important; }
+    .slick-section .container-fluid .row .col-md-12 .slide-bar i {
+      font-size: 25px !important; }
+    .slick-section .container-fluid .row .col-md-12 .slide-bar h6 {
+      font-size: 14px !important;
+      padding-right: 50px !important;
+      padding-left: 50px !important; }
+      .slick-section .container-fluid .row .col-md-12 .slide-bar h6 em {
+        font-size: 13px !important; }
+    .slick-section .container-fluid .row .col-md-12 .slide-bar p {
+      font-size: 14px !important;
+      padding-right: 25px !important;
+      padding-left: 25px !important; }
+
+  .grid-section2 .container-fluid .grid-row {
+    margin-top: 20px !important; }
+    .grid-section2 .container-fluid .grid-row .col-md-6 .btn {
+      margin: 55px 0 55px -30px !important;
+      font-size: 8px !important; }
+
+  .input-section .container-fluid .row .col-md-12 .row .img-logo {
+    margin-top: 50px !important; }
+    .input-section .container-fluid .row .col-md-12 .row .img-logo img {
+      width: 17% !important; }
+  .input-section .container-fluid .row .col-md-12 .input-row {
+    margin-bottom: 30px; }
+    .input-section .container-fluid .row .col-md-12 .input-row .col-md-6 {
+      margin-top: 30px !important; }
+      .input-section .container-fluid .row .col-md-12 .input-row .col-md-6 input {
+        padding: 20px !important; }
+    .input-section .container-fluid .row .col-md-12 .input-row .col-md-3 .btn {
+      margin-left: -25px !important;
+      padding: 8px 18px 9px 18px !important; }
+
+  .footer .container-fluid .row .col-md-4 i {
+    font-size: 15px !important; } }
+@media screen and (max-width: 360px) {
+  .nav-section #logo-1 img {
+    width: 42% !important; }
+
+  .generation-section .container-fluid .row .col-md-12 h1 {
+    padding-right: 40px !important;
+    padding-left: 40px !important; }
+  .generation-section .container-fluid .row .col-md-12 i {
+    font-size: 25px !important; }
+  .generation-section .container-fluid .row .col-md-12 p {
+    font-size: 14px;
+    margin-bottom: 55px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important; }
+
+  .grid-section1 .container-fluid .row .col-md-12 .bike-logo {
+    top: 11% !important; }
+  .grid-section1 .container-fluid .row .col-md-12 .words .vintage i {
+    font-size: 22px !important; }
+
+  .slick-section .container-fluid .row .col-md-12 {
+    margin-top: 50px !important; }
+    .slick-section .container-fluid .row .col-md-12 .slide-bar p {
+      padding-right: 15px !important;
+      padding-left: 15px !important; } }
+
+/*# sourceMappingURL=main.css.map */
